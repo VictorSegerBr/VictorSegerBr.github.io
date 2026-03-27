@@ -274,8 +274,12 @@ section#formacao-idiomas {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding-top: 100px;
-    height: 70vh;
+    padding-top: 60px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #cursos h3 {
@@ -286,12 +290,9 @@ section#formacao-idiomas {
 }
 
 #org-cursos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
     gap: 40px;
-    
 }
 
 .cursos1{
@@ -304,6 +305,7 @@ section#formacao-idiomas {
     color: var(--yellow-dark);
     font-weight: bold;
     padding: 20px 15px;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .cursos2{
@@ -311,6 +313,7 @@ section#formacao-idiomas {
     color: var(--blue-lightest);
     width: fit-content;
     padding: 10px 15px;
+    border-radius: 0px 15px 15px 0px;
 }
 
 #contato{
