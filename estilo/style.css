@@ -129,6 +129,7 @@ section#resumo #resumo1{
 
 #resumo p {
     text-align: justify;
+    line-height: 1.5em;
 }
 
 #resumo1 p{
