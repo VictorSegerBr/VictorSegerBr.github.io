@@ -227,6 +227,10 @@ section#formacao-idiomas {
     text-align: center;
 }
 
+#tecnologias-metodologias{
+    padding: 0px 10px;
+}
+
 #tecnologias-metodologias h3{
     color: var(--yellow-lightest);
     font-size: 2em;
@@ -370,6 +374,11 @@ footer a:hover{
 }
 
 @media screen and (max-width: 720px) {
+    header#ingles{
+        gap: 20vw;
+        padding: 15px;
+    }
+    
     header a{
         font-size: 0.8em;
     }
