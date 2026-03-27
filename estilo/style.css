@@ -375,7 +375,7 @@ footer a:hover{
 
 @media screen and (max-width: 720px) {
     header#ingles{
-        gap: 20vw;
+        gap: 10vw;
         padding: 15px;
     }
     
@@ -417,7 +417,7 @@ footer a:hover{
     }
     
     #resumo{
-        height: 105vh;
+        height: 120vh;
         padding-top: 30px;
         padding-left: 10px;
         padding-right: 10px;
