@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --blue-lightest: #C8D1F1;
+    --blue-lightest-trans: #c8d1f17e;
+    --blue-middle: #0C1847;
+    --blue-dark: #00061C;
+    --yellow-lightest: #FFD662;
+    --yellow-middle: #AC8D3A;
+    --yellow-dark: #1C1500;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+html{
+    background-color: var(--blue-middle);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+    background-color: var(--blue-dark);
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--blue-lightest);
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section#apresentacao {
+    height: 81vh;
+    background-image: url(../imagens/apresentacao.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    padding: 5vw 10vw;
+}
+
+section#apresentacao #nome1{
+    color: var(--blue-lightest);
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+section#apresentacao #nome2{
+    color: var(--yellow-lightest);
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+section#apresentacao #nome3{
+    color: var(--blue-lightest);
+    margin-bottom: 30px;
+}
+section#apresentacao #intro{
+    color: var(--blue-dark);
+    background-color: var(--blue-lightest-trans);
+    max-width: 500px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+div.botoes{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 60px;
+    gap: 150px;
+}
+
+div.botoes button {
+    background-color: var(--yellow-lightest);
+    color: var(--yellow-dark);
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+}
+div.botoes button:hover{
+    background-color: var(--yellow-middle);
+}
+
+#resumo{
+    height: 90vh;
+    padding-top: 100px;
+}
+section#resumo h3{
+    color: var(--yellow-lightest);
+    font-size: 2.5em;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+section#resumo #org-resumo{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 30px;
+    margin-top: 40px;
+}
+section#resumo #resumo1{
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#resumo p {
+    text-align: justify;
+}
+
+#resumo1 p{
+    text-indent: 20px;
+}
+
+.vertical-line {
+  width: 1px; 
+  background-color: var(--yellow-lightest); 
+  height: auto; 
+  float: left; 
+}
+
+section#resumo #resumo2 {
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section#resumo #resumo3 {
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    max-width: 700px;
+    margin: 120px auto;
+    padding: 15px;
+    border-radius: 15px;
+    text-indent: 20px;
+}
+
+section#formacao-idiomas {
+    background-image: url(../imagens/meio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
+    padding-top: 8vw;
+    padding-right: 13vw;
+}
+
+#formacao-idiomas h3{
+    color: var(--yellow-lightest);
+    font-size: 2em;
+    text-align: center;
+}
+
+#formacao h3{
+    margin-bottom: 20px;
+}
+
+#idiomas h3 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+#formacao {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    justify-self: right;
+    margin-right: 100px;
+}
+
+.formacao1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+
+.formacao1 p{
+    text-align: center;
+}
+
+#idiomas {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    justify-self: right;
+}
+
+.idiomas1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+
+.idiomas1 p{
+    text-align: center;
+}
+
+#tecnologias-metodologias h3{
+    color: var(--yellow-lightest);
+    font-size: 2em;
+    text-align: center;
+    margin: 150px 0px 100px 0px;
+}
+
+#org-tecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+
+.tecnologias{
+    max-width: 400px;
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.tecnologias h4{
+    color: var(--yellow-lightest);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.tecnologias p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+.tecnologias li{
+    list-style-position: inside;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+#cursos{
+    background-image: url(../imagens/padrao.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 100px;
+    height: 70vh;
+}
+
+#cursos h3 {
+    color: var(--yellow-lightest);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+#org-cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.cursos1{
+    display: flex;
+    justify-content: left
+}
+
+.cursos1 > p{
+    background-color: var(--yellow-middle);
+    color: var(--yellow-dark);
+    font-weight: bold;
+    padding: 20px 15px;
+}
+
+.cursos2{
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    width: fit-content;
+    padding: 10px 15px;
+}
+
+#contato{
+    padding-top: 100px;
+}
+
+#contato h3{
+    color: var(--yellow-lightest);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+#contato address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contato > address > a{
+    text-decoration: none;
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+#contato > address > a:hover{
+    text-decoration: underline;
+}
+
+#org-botoes-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+footer{
+    background-color: var(--blue-dark);
+    color: var(--blue-lightest);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--blue-lightest);
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+}
